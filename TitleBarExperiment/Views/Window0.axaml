@@ -1,0 +1,16 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="using:TitleBarExperiment.Views">
+  <Design.PreviewWith>
+    <controls:Window0 />
+  </Design.PreviewWith>
+
+  <Style Selector="controls|Window0">
+    <!-- Set Defaults -->
+    <Setter Property="Template">
+      <ControlTemplate>
+        <TextBlock Text="Templated Control" />
+      </ControlTemplate>
+    </Setter>
+  </Style>
+</Styles>
